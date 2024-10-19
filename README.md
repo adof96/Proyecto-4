@@ -1,11 +1,11 @@
-# Proyecto-4
+# Proyecto- Megaline
 ## Herramientas usadas
--Python
--Pandas 
--Matplotlib 
--Seaborn
--Numpy
--Scipy
+- Python
+- Pandas 
+- Matplotlib 
+- Seaborn
+- Numpy
+- Scipy
 ## Descripción del proyecto
 Trabajaremos como analista para el operador de telecomunicaciones Megaline. La empresa ofrece a sus clientes dos tarifas de prepago, Surf y Ultimate. El departamento comercial quiere saber cuál de los planes genera más ingresos para poder ajustar el presupuesto de publicidad.
 
@@ -20,29 +20,30 @@ Conversion de los datos en los tipos necesarios.
 Encontrar y elimina errores en los datos.
 Para cada usuario, buscaremos:
 
--El número de llamadas realizadas y minutos utilizados al mes.
--La cantidad de los SMS enviados por mes.
--El volumen de datos por mes.
--Los ingresos mensuales por cada usuario. 
+- El número de llamadas realizadas y minutos utilizados al mes.
+- La cantidad de los SMS enviados por mes.
+- El volumen de datos por mes.
+- Los ingresos mensuales por cada usuario. 
 
 Para ello, necesitamos:
 
--Restar el límite del paquete gratuito del número total de llamadas, mensajes de texto y datos.
--Multiplicar el resultado por el valor de la tarifa de llamadas.
--Añadir la cuota mensual en función del plan de llamadas.
+- Restar el límite del paquete gratuito del número total de llamadas, mensajes de texto y datos.
+- Multiplicar el resultado por el valor de la tarifa de llamadas.
+- Añadir la cuota mensual en función del plan de llamadas.
 
 ### Paso 3. Analizar los datos
 
 Describiremos el comportamiento de la clientela:
 
--Encuentraremos los minutos, SMS y volumen de datos que requieren los usuarios de cada tarifa por mes.
--Calcularemos la media, la varianza y la desviación estándar.
--Trazaremos histogramas. Describiremos las distribuciones.
+- Encuentraremos los minutos, SMS y volumen de datos que requieren los usuarios de cada tarifa por mes.
+- Calcularemos la media, la varianza y la desviación estándar.
+- Trazaremos histogramas. Describiremos las distribuciones.
 
 ### Paso 4. Prueba las hipótesis
 
--El ingreso promedio de los usuarios de las tarifas Ultimate y Surf difiere.
--El ingreso promedio de los usuarios en el área de estados Nueva York-Nueva Jersey es diferente al de los usuarios de otras regiones.
+- El ingreso promedio de los usuarios de las tarifas Ultimate y Surf difiere.
+- El ingreso promedio de los usuarios en el área de estados Nueva York-Nueva Jersey es diferente al de los usuarios de otras regiones.
+
 Además,explicaremos:
 
 Cómo formulamos las hipótesis nula y alternativa.
